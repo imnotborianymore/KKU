@@ -137,8 +137,8 @@ create policy "Public can delete comments" on public.comments for delete to anon
 -->
 <script>
 /* 공개 공동 게시판을 켜려면 아래 두 값을 입력하세요. anon/public key만 사용하고 service_role 키는 절대 넣지 마세요. */
-const SUPABASE_URL = "";
-const SUPABASE_ANON_KEY = "";
+const SUPABASE_URL = "https://opomcnfrfixobvbablgr.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_nc302wBR3u3kb-Bo3zYBEg_2aHUTzGR";
 const SUPABASE_READY = SUPABASE_URL.startsWith("https://") && SUPABASE_ANON_KEY.length > 20;
 const STORE_KEY = "kkyu-university-preview-v2";
 const seed = [
